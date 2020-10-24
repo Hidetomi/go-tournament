@@ -1,0 +1,18 @@
+# https://gist.github.com/marcoslhc/6958822
+# editorconfig.org
+
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+# editorconfig-tools is unable to ignore longs strings or urls
+max_line_length = off
+
+[*.md]
+trim_trailing_whitespace = false
